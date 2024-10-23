@@ -43,7 +43,7 @@ Use '-show verbose' for more details.
 See [ScanManifest_20241022211025173.json](./ScanManifest_20241022211025173.json)
 
 ```
-$ rep github.com/docker/docker ScanManifest_20241022211025173.json
+$ grep github.com/docker/docker ScanManifest_20241022211025173.json
           "github.com/docker/docker v26.0.1+incompatible - Go",
         "github.com/docker/docker v26.0.1+incompatible - Go": null,
         "name": "github.com/docker/docker",
